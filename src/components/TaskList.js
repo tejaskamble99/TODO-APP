@@ -15,7 +15,7 @@ function TaskList() {
     <div>
           <Container className='task-list'>
       {tasks.map(task => (
-        <Card key={task.id} variant='outlined' style={{marginTop: 35, background:'gray'}} >
+        <Card key={task.id} variant='outlined' style={{marginTop: 35, background:'#FFBE98'}} >
           <CardContent>
             <Typography>
               <IconButton>
